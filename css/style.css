@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.general_block{
+    min-height: 90vh;
+    min-width: 90vw;
+    background-image: url(https://get.pxhere.com/photo/gadget-hardwood-wood-mobile-phone-technology-electronic-device-portable-communications-device-table-electronics-laminate-flooring-smartphone-communication-device-desk-flooring-furniture-floor-1489799.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 10px solid orange;
+}
+.body{
+    font-family: sans-serif;
+}
+.block {
+    display: flex;
+    margin: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+
+}
+/*-----about-----*/
+
+.about{
+    min-height: 90vh;
+    min-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px; 
+    border: 10px solid black;
+
+    
+    
+}
+.about h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    min-width: 60vw;
+    min-height: 100vh;
+}
+
+
+.box{
+    flex-basis: 50%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+.box img{
+    width: 70%;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+.about1{
+    min-height: 90vh;
+    min-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px; 
+    border: 10px solid black;
+    background-color: orange;
+    justify-content: space-between;
+}
+.about1 h1{
+    color: #fff;
+    font-size: 60px;
+}
+.box1{
+    flex-basis: 21%;
+    margin-bottom: 20%;
+    text-align: center;
+    background-color: #fff;
+    width: 40%;
+}
+.box1 img{
+    width: 50%;
+    height: 50%;
+    justify-content: space-between;
+
+}
